@@ -33,10 +33,23 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
             K60,  K61,  K70,  K71,  K62,  K63,  K72,  K73,  K64,  K65,  K74,  K75,  K66, \
                 K80,  K81,        K82,        K83,        K84,        K86,  K87        \     */
     KC_ESC,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0,     KC_MINS,    KC_EQL,     KC_BSLS,   KC_GRV,      
-    KC_TAB,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,     KC_LBRC,    KC_RBRC,    KC_BKSP,               
+    KC_TAB,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,     KC_LBRC,    KC_RBRC,    KC_BSPC,               
     KC_LCTL, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN,  KC_QUOT,    KC_ENT,
     KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH,  KC_RSFT,    MO(1),                
     KC_LALT, KC_LGUI,          KC_SPC,           KC_SPC,           KC_SPC,                    KC_RGUI,  KC_RCTL
+  ),
+  [1] = LAYOUT_all( 
+
+  /*K00,  K01,  K10,  K11,  K02,  K03,  K12,  K13,  K04,  K05,  K14,  K15,  K06,  K07,  K27, \
+    K20,     K21,  K30,  K31,  K22,  K23,  K32,  K33,  K24,  K25,  K34,  K35,  K26,    K47, \
+    K40,       K41,  K50,  K51,  K42,  K43,  K52,  K53,  K44,  K45,  K55,  K55,      K46,  \
+            K60,  K61,  K70,  K71,  K62,  K63,  K72,  K73,  K64,  K65,  K74,  K75,  K66, \
+                K80,  K81,        K82,        K83,        K84,        K86,  K87        \     */
+    RESET,   KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0,     KC_MINS,    KC_EQL,     KC_INS,   KC_GRV,      
+    KC_TAB,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,     KC_UP,    KC_RBRC,    KC_DEL,               
+    KC_CAPS, KC_VOLD,    KC_VOLU,    KC_TRNS,    KC_TRNS,    KC_G,    KC_H,    KC_J,    KC_HOME,    KC_PGUP,    KC_LEFT,  KC_RGHT,    KC_ENT,
+    KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_END, KC_PGDN,  KC_DOWN,  KC_RSFT,    KC_TRNS,                
+    KC_LALT, KC_MPRV,          KC_SPC,           KC_MPLY,           KC_MPLY,                    KC_MNXT,  KC_RCTL
   ),
 };
 
