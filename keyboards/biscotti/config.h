@@ -52,6 +52,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define BACKLIGHT_BREATHING
 #define BACKLIGHT_LEVELS 3
 
+#define AdafruitBleResetPin D4
+#define AdafruitBleCSPin    B4
+#define AdafruitBleIRQPin   E6
+
 // #define RGB_DI_PIN E2
 // #ifdef RGB_DI_PIN
 // #define RGBLIGHT_ANIMATIONS

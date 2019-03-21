@@ -15,10 +15,12 @@
  */
 #include "biscotti.h"
 
+
+
 void matrix_init_kb(void) {
 	// put your keyboard start-up code here
 	// runs once when the firmware starts up
-
+	DDRD |= (1 << 4); PORTD |= (1 << 4);
 	matrix_init_user();
 }
 
@@ -38,6 +40,6 @@ bool process_record_kb(uint16_t keycode, keyrecord_t *record) {
 
 void led_set_kb(uint8_t usb_led) {
 	// put your keyboard LED indicator (ex: Caps Lock LED) toggling code here
-
+	
 	led_set_user(usb_led);
 }

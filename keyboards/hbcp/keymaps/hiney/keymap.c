@@ -22,9 +22,9 @@ enum custom_keycodes {
 };
 
 // LED indicator colour values
-LED_TYPE caps_led = { 255, 0, 0 };
-LED_TYPE num_led = { 0, 255, 0 };
-LED_TYPE scroll_led = { 0, 0, 255 };
+LED_TYPE caps_led = { 187, 126, 15 };
+LED_TYPE num_led = { 187, 126, 15 };
+LED_TYPE scroll_led = { 187, 126, 15 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
